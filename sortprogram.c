@@ -16,7 +16,7 @@ int main(int argc,char** argv){
   } while(1);
   printf("before sorting\n");
   for(int i = 0; i < lenArray; i++) printf("%d\n", digitArray[i]);
-  digitArray = insertionSort(digitArray, lenArray);
+  digitArray = mergeSort(digitArray, lenArray);
   printf("after sorting\n");
   for(int i = 0; i < lenArray; i++) printf("%d\n", digitArray[i]);
 }
